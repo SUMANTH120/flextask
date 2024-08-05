@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .main{
+            /* border: 2px solid gray; */
+            width: 100%;
+            position: relative;
+            margin-top: 0%;
+            display: flex;
+            margin-top: 0px;
+            background-color: white;
+            gap: 35px;
+            flex-wrap:wrap;
+            height: 50px;
+            align-items:stretch;
+            justify-content:space-evenly;
+        }
+        .main>.su {
+            /* position: relative; */
+            padding: 10px;
+            margin-top: 0px;
+            /* background-color: aquamarine; */
+            
+        }
+        .main >.su:hover{
+            background-color:lightgreen;
+        }
+        input {
+            border-radius:8px;
+            height: 20px;
+        }
+        input::placeholder{
+            color: blue;
+        }
+        #search{
+            position: relative;
+            right: 90px;
+            margin-top:10px;
+            bottom: 5px;
+        }
+        .imp {
+            border: solid 2px;
+            display: flex;
+            /* margin-top: 110px; */
+            position: relative;
+            gap: 30px;
+            align-items: stretch;
+            background-color: darkslategrey;
+            justify-content: space-evenly;
+        }
+        .imp >.man{
+            color: azure;
+            font-size: 18px;
+        }
+        .imp>.man:hover{
+            color: green;
+        }
+        .imp>.man::selection{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="su"><img src="./download.png" alt="" width="30px"></div>
+        <div class="su">Tutorials</div>
+        <div class="su">Excersises</div>
+        <div class="su">Certificates</div>
+        <div class="su">Services</div>
+        <div class="su"><input type="text" placeholder="Search"></div>
+        <div class="su" id="search"><i class="fa fa-search"></i></div>
+        <div class="su"><img src="./dark-mode-svgrepo-com.svg" alt="" width="30px"></div>
+        <div class="su">Plus</div>
+        <div class="su">Spaces</div>
+        <div class="su">Get Certified</div>
+        <div class="su">Spaces</div>
+        <div class="su"><img src="./sign-in.svg" alt="" width="30px"></div>
+        <div class="su"><img src="./log-in.svg" alt="" width="30px"></div>
+
+    </div>
+    <div class="imp">
+        <div class="man">C</div>
+        <div class="man">CPP</div>
+        <div class="man">JAVA</div>
+        <div class="man">PYTHON</div>
+        <div class="man">HTML</div>
+        <div class="man">CSS</div>
+        <div class="man">HOW to</div>
+        <div class="man">GIT</div>
+        <div class="man">SCRIPT</div>
+        <div class="man">NODE JS</div>
+        <div class="man">DJANGO</div>
+        <div class="man">SQL</div>
+        <div class="man">BOOTSTRAP</div>
+        <div class="man">PHP</div>
+        <div class="man">Machine Learning</div>
+        <div class="man">Numpy</div>
+        <div class="man">Pandas</div>
+    </div>
+</body>
+</html>
